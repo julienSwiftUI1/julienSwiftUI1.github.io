@@ -201,7 +201,7 @@
     margin-top: 90px;
   }
 
-
+/* Section */
 
   .section {
     margin-left: 60px;
@@ -215,6 +215,14 @@
       margin-right: 0px;
     }
   }
+
+  @media screen and (max-width: 400px) {
+    .section {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
 
   #m {
 
