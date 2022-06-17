@@ -1,0 +1,211 @@
+.title3 {
+
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+
+
+
+
+
+#ia {
+
+    width: 8vw;
+    height: 7vh;
+}
+
+#acceu {
+
+  margin-top: 60vh;
+
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+
+   
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+    
+    button {
+      position:  absolute;
+    }
+    
+    
+ 
+    
+    #btnVideo{
+    font-size: 1.5rem;
+    background: 0;
+    border: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 450px;
+    }
+
+    section {
+
+        background-color: white;
+    }
+
+    
+.deplacement {
+
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 40px;
+ 
+
+}
+
+
+@media screen and (max-width: 750px) {
+  .deplacement{
+
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+  }
+  
+}
+
+
+.sous-titre {
+
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.separate {
+
+    margin-bottom: 300px;
+}
+
+#remonter {
+
+    margin-bottom:150px;
+}
+
+#jour {
+    background-color: transparent;
+}
+
+#i1 {
+
+    margin: 150px;
+}
+
+
+  
+  
+  /* Scroller styling */
+  .scroller {
+    height: 3em;
+    line-height: 3em;
+    position: relative;
+
+    overflow: auto;
+    width: 140%;
+    
+
+  }
+  .scroller > span {
+    position: absolute;
+    animation: slide 5s infinite;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(251, 251, 251);
+    text-shadow: 2px 2px 6px #000000;
+    
+  }
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -1.2em;
+    }
+    50% {
+      top: -2.4em;
+    }
+    75% {
+      top: -3.6em;
+    }
+  }
+
+  /* nos valeurs */
+ 
+  #modif {
+
+    margin-top: 0px;
+    margin-bottom: 150px;
+
+  }
+
+/* Image slider */
+
+
+
+  #spacer{
+
+    margin-bottom: 90px;
+  }
+
+  @media screen and (max-width: 750px) {
+    #spacer {
+      margin-bottom: 30px;
+    }
+  }
+  
+
+  #desc {
+
+    margin-top: 90px;
+  }
+
+
+
+  .section {
+    margin-left: 60px;
+    margin-right: 60px;
+   
+  }
+
+  @media screen and (max-width: 750px) {
+    .section {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+
+  #m {
+
+    margin-top: 20px;
+
+    width: 200px ;
+    height: 200 px;
+  }
+
+  #n {
+
+    margin-top: 20px;
+  }
